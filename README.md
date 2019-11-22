@@ -1,1 +1,0 @@
-# sensic-s2s-sdk-tvos
