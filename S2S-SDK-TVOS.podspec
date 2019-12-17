@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
     s.summary           = 'S2S-SDK-TVOS'
     s.homepage          = 'http://www.gfk.com/'
     s.author            = { 'GfK' => 'info@gfk.com' }
-    s.platform          = :ios
+    s.platform          = :tvos
     s.source            = { :http => 'https://s3.eu-central-1.amazonaws.com/download.sensic.net/s2s/sdk/ios/1.10.4/s2s_sdk_tvos_1.10.4.zip'}
-    s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '12.4'
     s.ios.vendored_frameworks = 's2s_sdk_tvos.framework'
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.1' }
 end
