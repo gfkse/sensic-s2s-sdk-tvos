@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
     s.author            = { 'GfK' => 'info@gfk.com' }
     s.platform          = :tvos
     s.source            = { :http => 'https://s3.eu-central-1.amazonaws.com/download.sensic.net/s2s/sdk/ios/testing/1/s2s_sdk_tvos_1.zip'}
+    s.tvos.vendored_frameworks = 's2s_sdk_tvos.xcframework/tvOS-x86_64-simulator/s2s_sdk_tvos.framework'
     s.tvos.deployment_target = '12.4'
     s.tvos.vendored_frameworks = 's2s_sdk_tvos.framework'
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.1' }
