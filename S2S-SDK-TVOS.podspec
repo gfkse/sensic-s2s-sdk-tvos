@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.dependency 'GoogleAds-IMA-tvOS-SDK'
     s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=appletvsimulator*]' => 'arm64' }
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=appletvsimulator*]' => 'arm64' }
-    s.tvos.deployment_target = '12.4'
+    s.tvos.deployment_target = '12.0'
     s.tvos.vendored_frameworks = 's2s_sdk_tvos.xcframework'
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.1' }
 end
