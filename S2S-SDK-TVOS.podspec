@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name              = 'S2S-SDK-TVOS'
-    s.version           = '"${VERSION_NUMBER}"'
+    s.version           = '1'
     s.summary           = 'S2S-SDK comes with third-party dependencies. In order to avoid particular dependencies, please use the respective subspecs.'
     s.homepage          = 'https://confluence-docu.gfk.com/pages/viewpage.action?pageId=19595365'
     s.author            = { 'GfK' => 'gfkSensic@gmail.com' }
