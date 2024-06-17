@@ -25,3 +25,4 @@ Pod::Spec.new do |s|
      s.subspec 'AgentOnly' do |player|
      player.vendored_framework = 's2s_sdk_tvos_agent_only.xcframework'
     end
+end
