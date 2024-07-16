@@ -9,8 +9,7 @@ Pod::Spec.new do |s|
     s.tvos.deployment_target = '12.4'
     s.tvos.vendored_frameworks = 's2s_sdk_tvos.xcframework'
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.1' }
-    
-    s.dependency 'Sentry', '8.17.0'
+
 
     s.subspec 'Bitmovin' do |bitmovin|
      bitmovin.vendored_framework = 's2s_sdk_tvos_bitmovin.xcframework'
