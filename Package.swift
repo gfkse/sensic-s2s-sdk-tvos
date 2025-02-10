@@ -8,9 +8,9 @@ let package = Package(
     ],
     products: [
         // Define separate products for each target to keep them isolated
-        .library(name: "AVPlayer-GoogleAds", targets: ["s2s_sdk_tvos_avplayer_googleAds"]),
-        .library(name: "Bitmovin", targets: ["s2s_sdk_tvos_bitmovin"]),
-        .library(name: "AgentOnly", targets: ["s2s_sdk_tvos_agent_only"])
+        .library(name: "tvOSAVPlayer-GoogleAds", targets: ["s2s_sdk_tvos_avplayer_googleAds"]),
+        .library(name: "tvOSBitmovin", targets: ["s2s_sdk_tvos_bitmovin"]),
+        .library(name: "tvOSAgentOnly", targets: ["s2s_sdk_tvos_agent_only"])
     ],
     targets: [
         .binaryTarget(
