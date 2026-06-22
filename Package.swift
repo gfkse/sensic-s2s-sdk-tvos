@@ -15,18 +15,18 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "s2s_sdk_tvos_avplayer_googleAds",
-            url: "https://s3.eu-central-1.amazonaws.com/download.sensic.net/s2s/sdk/ios/1.19.23/s2s_sdk_tvos_avplayer_googleAds.zip",
-            checksum: "9cae6450620e716b67a5df3aafacf288db5fb681b4fe592b6647044d3532ae89"
+            url: "https://s3.eu-central-1.amazonaws.com/download.sensic.net/s2s/sdk/ios/1.19.25/s2s_sdk_tvos_avplayer_googleAds.zip",
+            checksum: "57e09fa2ac75d0dd54b73b7afc6f73751b052d62b8b7911bad1673a0138440a0"
         ),
         .binaryTarget(
             name: "s2s_sdk_tvos_bitmovin",
-            url: "https://s3.eu-central-1.amazonaws.com/download.sensic.net/s2s/sdk/ios/1.19.23/s2s_sdk_tvos_bitmovin.zip",
-            checksum: "ff5656d0384bb56e5dbca3203daa63c345b598396f0b13146c40eff5f454724f"
+            url: "https://s3.eu-central-1.amazonaws.com/download.sensic.net/s2s/sdk/ios/1.19.25/s2s_sdk_tvos_bitmovin.zip",
+            checksum: "882c2b0f67136e64e24ea1f1d912fd9b94c0830fd4bb9392a039525d4e7515a9"
         ),
         .binaryTarget(
             name: "s2s_sdk_tvos_agent_only",
-            url: "https://s3.eu-central-1.amazonaws.com/download.sensic.net/s2s/sdk/ios/1.19.23/s2s_sdk_tvos_agent_only.zip",
-            checksum: "b8efdc334175a22b45fcdd0f621fabc42559f0cd0c756784cefd09060908d81f"
+            url: "https://s3.eu-central-1.amazonaws.com/download.sensic.net/s2s/sdk/ios/1.19.25/s2s_sdk_tvos_agent_only.zip",
+            checksum: "6381e537e0a28247ffa539b42422b13d7cf9bf56953b8827b6a63694f6e18118"
         ),
     ]
 )
